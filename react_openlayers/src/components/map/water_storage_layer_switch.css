@@ -1,0 +1,38 @@
+
+.ant-radio-wrapper {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.65) !important;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    font-feature-settings: 'tnum';
+    position: relative;
+    display: inline-block;
+    margin-right: 8px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+
+.ant-divider.ant-divider-horizontal {
+    border-top: 1px solid white;
+    margin: 0px 0 !important;
+}
+
+.ant-checkbox-wrapper{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.65) !important;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    font-feature-settings: 'tnum';
+    display: inline-block;
+    line-height: unset;
+    cursor: pointer;
+}

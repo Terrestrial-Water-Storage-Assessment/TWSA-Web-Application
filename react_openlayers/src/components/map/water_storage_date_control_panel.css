@@ -1,0 +1,41 @@
+
+.time-layer-slider {
+    border: none !important;
+    background-color: #2e3842 !important;
+}
+
+.time-value {
+    /* border-radius: 8px; */
+    border: 1px solid lightgrey;
+    padding: 5px !important;
+    white-space: nowrap;
+    color: rgb(255, 255, 255) !important;
+    /* color: rgba(255, 255, 255, 0.65) !important; */
+    /* color: yellow !important; */
+    background-color: #1890ff;
+    font-weight: normal !important;
+}
+
+.ant-slider-mark-text-active {
+    color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.ant-slider-mark-text {
+    color: rgba(255, 255, 255, 0.65)!important;
+}
+
+.ant-btn.react-geo-simplebutton.ant-btn-primary {
+    display: none !important;
+}
+
+.ant-tooltip-inner {
+    background-color: #293e6e !important;
+}
+
+.fa-play {
+    font-size: 36px;
+}
+
+.fa-pause {
+    font-size: 36px;
+}

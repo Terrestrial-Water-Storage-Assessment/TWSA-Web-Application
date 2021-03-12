@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    
+    <servlet>
+        <servlet-name>PointQueryServlet</servlet-name>
+        <servlet-class>edu.sdsc.twsa.PointQueryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PointQueryServlet</servlet-name>
+        <url-pattern>/point</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GridQueryServlet</servlet-name>
+        <servlet-class>edu.sdsc.twsa.GridQueryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GridQueryServlet</servlet-name>
+        <url-pattern>/grid</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>WatershedQueryServlet</servlet-name>
+        <servlet-class>edu.sdsc.twsa.WatershedQueryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WatershedQueryServlet</servlet-name>
+        <url-pattern>/watershed</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RegionQueryServlet</servlet-name>
+        <servlet-class>edu.sdsc.twsa.RegionQueryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegionQueryServlet</servlet-name>
+        <url-pattern>/region</url-pattern>
+    </servlet-mapping>
+    
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
